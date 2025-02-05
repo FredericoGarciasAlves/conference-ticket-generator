@@ -1,0 +1,354 @@
+.main {
+    height: 130vh;
+    background-image: url(./assets/images/background-desktop.png);
+    background-size: cover;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    position: relative;
+}
+
+.main .img-cicle-top {
+    background-image: url(./assets/images/pattern-squiggly-line-top.svg);
+    background-repeat: no-repeat;
+    background-position: top right;
+    background-size: contain;
+    width: 300px;
+    height: 300px;
+    position: absolute;
+    top: 0;
+    right: 0;
+}
+
+.main .img-cicle-bottom {
+    background-image: url(./assets/images/pattern-squiggly-line-bottom-desktop.svg);
+    background-repeat: no-repeat;
+    background-position: bottom left;
+    background-size: contain;
+    width: 900px;
+    height: 450px;
+    position: absolute;
+    z-index: 1;
+    bottom: 0;
+    left: 0;
+}
+
+.main .box-infos {
+    position: absolute;
+    z-index: 2;
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    align-items: center;
+    top: 0;
+}
+
+.main .box-infos .coding-cof {
+    width: 20.8rem;
+    margin-top: 4rem;
+}
+
+.main .box-infos .title {
+    font-size: 6.3rem;
+    text-align: center;
+    width: 90rem;
+    color: #fff;
+    font-family: "inconsolata-extrabold";
+    margin-top: 6rem;
+}
+
+.main .box-infos .paragrath {
+    color: #d1d0d5;
+    font-family: "inconsolata-medium";
+    font-size: 2.5rem;
+    margin-top: 2rem;
+}
+
+.main .box-infos .form {
+    margin-top: 4.5rem;
+    display: flex;
+    flex-direction: column;
+}
+
+.main .box-infos .form .upload-avatar {
+    font-family: "inconsolata-regular";
+    color: #fff;
+    font-size: 1.8rem;
+}
+
+.main .box-infos .form .box-input-image {
+    width: 46rem;
+    height: 13.6rem;
+    border: 2px dashed #d1d0d5;
+    border-radius: 1rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: rgba(255, 255, 255, 0.08);
+    margin-top: 1.2rem;
+}
+
+.main .box-infos .form .box-input-image:hover {
+    background-color: rgba(255, 255, 255, 0.13);
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+}
+
+.main .box-infos .form .alert-message-photo,
+.main .box-infos .form .alert-message-email,
+.main .box-infos .form .message-empty-input-img,
+.main .box-infos .form .message-empty-name,
+.main .box-infos .form .message-empty-github {
+    color: red;
+    font-family: "inconsolata-regular";
+    margin-top: 1.2rem;
+    width: 44rem;
+    line-height: 2rem;
+    font-size: 1.6rem;
+}
+
+.main .box-infos .form .box-input-image .btn-upload {
+    background-color: rgba(255, 255, 255, 0.13);
+    width: 5rem;
+    height: 5rem;
+    border: none;
+    border-radius: 1rem;
+    margin-top: 2rem;
+}
+
+.main .box-infos .form .box-input-image .paragrath-click-upload {
+    font-size: 1.8rem;
+    font-family: "inconsolata-regular";
+    color: #d1d0d5;
+    margin-top: 1.6rem;
+}
+
+.main .box-infos .form .box-input-image .preview-image {
+    width: 5rem;
+    height: 5rem;
+    border: none;
+    border-radius: 1rem;
+    margin-top: 2rem;
+}
+
+.main .box-infos .form .box-input-image .box-btns {
+    display: flex;
+    gap: 1rem;
+    margin-top: 1.2rem;
+}
+
+.main .box-infos .form .box-input-image .box-btns .btn-remove-image {
+    background-color: rgba(255, 255, 255, 0.08);
+    font-family: "inconsolata-regular";
+    color: #d1d0d5;
+
+    width: 7rem;
+    height: 1.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 0.3rem;
+}
+
+.main .box-infos .form .box-input-image .box-btns .btn-remove-image:hover {
+    text-decoration: underline;
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+}
+
+.main .box-infos .form .box-input-image .box-btns .btn-chan-img {
+    background-color: rgba(255, 255, 255, 0.08);
+    font-family: "inconsolata-regular";
+    color: #d1d0d5;
+    width: 7.2rem;
+    height: 1.9rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    border: none;
+    border-radius: 0.3rem;
+}
+
+.main .box-infos .form .box-input-image .box-btns .btn-chan-img:hover {
+    text-decoration: underline;
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+}
+
+.main .box-infos .form .paragrath-max-upload {
+    font-size: 1.2rem;
+    color: #d1d0d5;
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+    font-family: "inconsolata-regular";
+    margin-top: 1.2rem;
+}
+
+.main .box-infos .form .label {
+    font-size: 1.8rem;
+    color: #fff;
+    font-family: "inconsolata-regular";
+    margin-top: 2.4rem;
+}
+
+.main .box-infos .form .input {
+    background-color: rgba(255, 255, 255, 0.08);
+    height: 5rem;
+    border: 1px solid #d1d0d5;
+    border-radius: 1rem;
+    margin-top: 1.2rem;
+    color: #fff;
+    font-size: 1.6rem;
+    padding-left: 1rem;
+}
+
+.main .box-infos .form .input:hover {
+    background-color: rgba(255, 255, 255, 0.13);
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+}
+
+.main .box-infos .form .input:focus {
+    outline: 1px solid #d1d0d5;
+    outline-offset: 3px;
+}
+
+.main .box-infos .form .btn-submit {
+    margin-top: 2.4rem;
+    height: 5rem;
+    font-size: 1.8rem;
+    background-color: #f57463;
+    color: #0d082d;
+    font-family: "inconsolata-extrabold";
+    border: none;
+    border-radius: 1rem;
+}
+
+.main .box-infos .form .btn-submit:hover {
+    background-color: #e1604f;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+}
+
+.main .box-infos .form .btn-submit:focus {
+    outline: 1px solid #d1d0d5;
+    outline-offset: 3px;
+}
+
+.main .section-ticket {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    height: 100%;
+    font-family: "inconsolata-regular";
+}
+
+.main .section-ticket .logo-header {
+    width: 30rem;
+    margin-top: 4rem;
+}
+
+.main .section-ticket .title-section-ticket {
+    color: #fff;
+    font-size: 6.3rem;
+    margin-top: 7rem;
+    text-align: center;
+    width: 90rem;
+}
+
+.main .section-ticket .title-section-ticket .name-user-ticket {
+    font-size: 6.3rem;
+    background: linear-gradient(45deg, #f37362, #fff);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+.main .section-ticket .paragrath-section-ticket {
+    font-size: 2rem;
+    color: #d1d0d5;
+    width: 50rem;
+    text-align: center;
+    margin-top: 3.2rem;
+}
+
+.main .section-ticket .paragrath-section-ticket .email-section-ticket {
+    color: #f57463;
+    font-size: 2rem;
+}
+
+.main .section-ticket .ticket {
+    background-image: url(assets/images/pattern-ticket.svg);
+    background-size: cover;
+    width: 60rem;
+    height: 28rem;
+    margin-top: 11rem;
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    position: relative;
+}
+
+.main .section-ticket .ticket .ticket-header .logo-ticket {
+    height: 5rem;
+    margin-top: 3rem;
+    margin-left: 2.4rem;
+}
+
+.main .section-ticket .ticket .ticket-header .date-location {
+    font-size: 2rem;
+    color: #d1d0d5;
+    margin-left: 10.5rem;
+    margin-top: 1.2rem;
+}
+
+.main .section-ticket .ticket .ticket-header .date-location .date {
+    font-size: 2rem;
+}
+
+.main .section-ticket .ticket .ticket-header .date-location .location {
+    font-size: 2rem;
+}
+
+.main .section-ticket .ticket .ticket-footer {
+    display: flex;
+    column-gap: 1.6rem;
+    margin-bottom: 2.4rem;
+    margin-left: 2.4rem;
+}
+
+.main .section-ticket .ticket .ticket-footer .ticket-profile-icon {
+    width: 8rem;
+    height: 8rem;
+    border-radius: 1rem;
+}
+
+.main .section-ticket .ticket .ticket-footer .name-github {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.main .section-ticket .ticket .ticket-footer .name-github .name-ticket {
+    font-size: 3rem;
+    color: #fff;
+}
+
+.main .section-ticket .ticket .ticket-footer .name-github .github-location {
+    font-size: 2rem;
+    color: #fff;
+    display: flex;
+    align-items: center;
+    column-gap: 1rem;
+}
+
+.main .section-ticket .ticket .number-random {
+    color: #8784a5;
+    font-size: 3rem;
+    position: absolute;
+    z-index: 4;
+    right: 3.2rem;
+    top: 9.8rem;
+    writing-mode: vertical-rl;
+}

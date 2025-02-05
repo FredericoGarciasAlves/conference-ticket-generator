@@ -1,0 +1,140 @@
+@media (max-width: 768px) {
+    .main .box-infos .title {
+        font-size: 5.3rem;
+
+        width: 60rem;
+    }
+
+    .main .box-infos .paragrath {
+        font-size: 2rem;
+    }
+    .main .img-cicle-bottom {
+        background-image: url(./assets/images/pattern-squiggly-line-bottom-mobile-tablet.svg);
+        width: 700px;
+        height: 240px;
+        background-size: contain;
+    }
+    .main .img-cicle-top {
+        top: 50px;
+    }
+
+    .main .section-ticket .logo-header {
+        width: 25rem;
+    }
+
+    .main .section-ticket .title-section-ticket {
+        font-size: 5rem;
+        width: 60rem;
+    }
+
+    .main .section-ticket .title-section-ticket .name-user-ticket {
+        font-size: 5rem;
+    }
+}
+
+@media (max-width: 375px) {
+    .main {
+        height: 812px;
+    }
+    .main .box-infos .title {
+        font-size: 2.7rem;
+        width: 35rem;
+    }
+    .main .box-infos .paragrath {
+        font-size: 1.9rem;
+        width: 33rem;
+        text-align: center;
+        margin-top: 4rem;
+    }
+    .main .img-cicle-bottom {
+        width: 350px;
+    }
+
+    .main .box-infos .form .box-input-image {
+        width: 33rem;
+        height: 13.6rem;
+
+        border-radius: 1rem;
+
+        background-color: rgba(255, 255, 255, 0.08);
+        margin-top: 1.2rem;
+    }
+
+    .main .section-ticket .logo-header {
+        width: 20rem;
+    }
+
+    .main .section-ticket .title-section-ticket {
+        font-size: 3rem;
+        width: 30rem;
+    }
+
+    .main .section-ticket .title-section-ticket .name-user-ticket {
+        font-size: 3rem;
+    }
+
+    .main .section-ticket .paragrath-section-ticket {
+        width: 30rem;
+        font-size: 1.6rem;
+    }
+
+    .main .section-ticket .paragrath-section-ticket .email-section-ticket {
+        font-size: 1.6rem;
+    }
+
+    .main .section-ticket .ticket {
+        background-image: url(assets/images/pattern-ticket.svg);
+        background-size: contain;
+        width: 34.3rem;
+        height: 16rem;
+        margin-top: 7.2rem;
+    }
+
+    .main .section-ticket .ticket .ticket-header .logo-ticket {
+        height: 2rem;
+        margin-top: 1.6rem;
+        margin-left: 1.6rem;
+    }
+
+    .main .section-ticket .ticket .ticket-header .date-location {
+        width: 20rem;
+        margin-left: 3.5rem;
+        margin-top: 0rem;
+    }
+
+    .main .section-ticket .ticket .ticket-header .date-location .date {
+        font-size: 1.5rem;
+    }
+
+    .main .section-ticket .ticket .ticket-header .date-location .location {
+        font-size: 1.5rem;
+    }
+
+    .main .section-ticket .ticket .ticket-footer {
+        display: flex;
+        column-gap: 1.2rem;
+        margin-bottom: 1.6rem;
+        margin-left: 1.6rem;
+    }
+
+    .main .section-ticket .ticket .ticket-footer .ticket-profile-icon {
+        width: 4.5rem;
+        height: 4.5rem;
+    }
+
+    .main .section-ticket .ticket .ticket-footer .name-github .name-ticket {
+        font-size: 1.4rem;
+    }
+
+    .main .section-ticket .ticket .ticket-footer .name-github .github-location {
+        font-size: 1.4rem;
+        column-gap: 0.5rem;
+    }
+
+    .main .section-ticket .ticket .number-random {
+        font-size: 1.7rem;
+        z-index: 4;
+        right: 1.6rem;
+        top: 5rem;
+    }
+}
